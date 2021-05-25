@@ -67,11 +67,11 @@ def check_args(sys, command_valid=True):
 
 def save_QR_code(qr_url):
     r = urllib.request.urlopen(qr_url)
-    QR = r.read()
+    QR_code = r.read()
     date_and_time = datetime.datetime.now().strftime("%Y-%m-%d--%H.%M")
     file_name = 'QRcode-' + date_and_time + ".jpg"
     f = open(file_name, 'wb')
-    f.write(QR)
+    f.write(QR_code)
     f.close
     print("File Name:", file_name)
 
