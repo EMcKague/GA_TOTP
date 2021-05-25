@@ -1,5 +1,5 @@
 # TOTP
-TOTP creates 30-Second TOTP codes using the [RFC 6238 standard](https://datatracker.ietf.org/doc/html/rfc6238). These codes syncronize with [GA](https://github.com/google/google-authenticator). It can produce a QR code that is saved a jpg in the directory the file is being ran. This QR code can be scanned and utilized by GA. 
+TOTP creates 30-Second TOTP codes using the [RFC 6238 standard](https://datatracker.ietf.org/doc/html/rfc6238). These codes syncronize with [GA](https://github.com/google/google-authenticator). It can produce a QR code that is saved as a jpg in the directory the file is being ran. This QR code can be scanned and utilized by GA. 
 
 ## Installation 
 
